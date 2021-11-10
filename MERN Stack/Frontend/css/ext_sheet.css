@@ -1,0 +1,39 @@
+h4{
+	
+	text-transform: uppercase;
+}
+ p{
+       /* color: brown;
+*/       
+	font-size: 15px;
+    }
+a{
+	align-items: center;
+}
+
+p,h4{
+	font-family: sans-serif;
+}
+
+
+li h4{
+	font-family: cursive;
+	text-transform: uppercase;
+}
+
+
+/*.uppercase{
+	text-transform: uppercase;
+}
+*/
+
+#site-desc #website{
+color: red;
+text-align: center;
+font-size: 30px;
+
+}
+
+#blog-title:hover{
+	color: orange;
+}

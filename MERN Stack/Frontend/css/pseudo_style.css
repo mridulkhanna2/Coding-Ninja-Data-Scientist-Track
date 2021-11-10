@@ -1,0 +1,42 @@
+.capitalize-first-letter::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+div::first-line{
+    text-decoration: underline;
+}
+.bef{
+    background-color: lightgray;
+}
+.bef::before{
+    content: "Before";
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+.bef::after{
+    content:"";
+    background-image:url(ice-cream-solid.svg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content:"";
+    background-image: url(ice-cream-solid.svg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+
+}

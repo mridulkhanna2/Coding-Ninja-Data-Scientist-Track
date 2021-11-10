@@ -1,0 +1,17 @@
+#img-container{
+	height: 100vh;
+	width: 100vw;
+	/*background-color: red;*/
+	background-image: url("image/img2.jpg");
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size:cover;
+	/*background-attachment: fixed;*/
+
+}
+
+div{
+	color: red;
+}
+
+/*1920 1080*/

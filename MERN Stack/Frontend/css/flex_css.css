@@ -1,0 +1,33 @@
+#container{
+	height: 75vh;
+	width: 75vw;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+#container div{
+	height: 200px;
+	width: 200px;
+}
+
+#div1{
+	background-color: cyan;
+	/*order: 1;*/
+}
+
+#div2{
+	background-color: blue;
+}
+#div3{
+	background-color: darkblue;
+}
+#div4{
+	background-color: purple;
+	/*order: -1;*/
+}
+#div5{
+	background-color: orange;
+}
